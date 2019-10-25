@@ -1,0 +1,89 @@
+﻿Body {
+background-color: rgb(255,0,0) ;
+}
+H1 {
+font-size:50px;
+color: yellow;
+text-align: center;
+text-shadow: 2px 2px 10px black;
+text-decoration:underline overline;
+}
+H3 {
+	font-size:70px;
+color: yellow;
+text-align: center;
+text-shadow: 2px 2px 10px black;
+text-decoration:underline overline;
+}
+P {
+	font-size:20px;
+	text-align:center;
+	color:rgb(255,255,0);
+	text-indent:50px;
+}
+H2 {
+font-size:25px;
+color: yellow;
+text-align: center;
+text-shadow:2px 2px 10px black;
+text-decoration:underline;
+}
+table#tabela {
+	border: 1px solid rgb(255,255,255);
+	border-spacing:3px;
+	margin-left:auto;
+	margin-right:auto;
+	color:white;
+}
+table#tabela caption{
+border: 1px solid rgb(25,0,0);
+font-size:120%
+}
+table#tabela th{
+	border:1px solid rgb(255,00);
+}
+table#tabela td{
+border:1px solid rgb(255,0,0);
+padding:10px;
+}
+a:link {
+	color:yellow;
+	background-color:transparent;
+	text-decoration: none;
+}
+a:visited {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover {
+	color: yellow;
+	background-color: transparent;
+	text-shadow: 4px 4px black;
+}
+.menu {
+	float:left;
+	width: 20%;
+	text-align:center;
+}
+* {
+	box-sizing: border-box;
+}
+.menuitem {
+	background-color:rgb(205,38,38)
+	padding;8px
+	margin-top:7px;
+	font-size:100%;
+}
+.main {
+	float:left;
+	width:80%;
+	padding:0 20px;
+	text-align:justify;
+	background-color:rgb(139,0,0);
+}
+@media only screen and (max-width:640px) {
+	.menu, .main, .right{
+		width:100%:
+	}
+}
